@@ -1,15 +1,11 @@
 package start_uni;
+import java.util.Scanner;
 
 public class VideoGame {
-    private String nome;
-    private double preco;
-    private int qtd;
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        Produto videoGame = new Produto();
 
-    public  String getProdutoNome() {
-        return nome;
-    }
-    public void setProdutoNome() {
-        this.nome = nome;
-    }
 
+    }
 }
